@@ -1,4 +1,3 @@
-```Javascript
 var myVar = 'This is global';
 
 function someFunction() {
@@ -7,7 +6,7 @@ function someFunction() {
 }
 
 someFunction();
-```
+
 
 Question:
 
@@ -17,7 +16,7 @@ until after you have tried to answer.
 Answer:
 
 This code will log the string `'This is local'`. When we invoke `someFunction`
-on line 9, we declare a local variable `myVar` and initialize it with the value
+on line 8, we declare a local variable `myVar` and initialize it with the value
 `'This is local'`. This does not reassign the global variable `myVar` that was
 declared and initialized on line 1, because in Javascript, function create
 function scope and any variables declared within it are local to the function,
