@@ -1,0 +1,1 @@
+let radianToDegree = radian => (radian * 180) / Math.PI
